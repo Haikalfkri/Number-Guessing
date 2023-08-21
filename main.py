@@ -28,7 +28,7 @@ while not end:
             health -= 1
             print(f"You have {health} left")
         if user_input == random_number:
-            print("Your right")
+            print("Congratulation you did it!")
             end = True
     else:
         print('You out of health')
